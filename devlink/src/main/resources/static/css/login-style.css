@@ -1,0 +1,145 @@
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 95%;
+    height: 35px;
+    background-color: #171717;
+    border-radius: 0px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 27px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    height: 42px;
+    color: #FFFFFF;
+    background-color: #2eab43;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    transition: 1s;
+    font-size: 17px;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #2E7D32;
+    transition: 1s;
+    transform: scale(1.01);
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#remember-me-checkbox {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    margin-left: 10px;
+}
+
+span {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.register-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#register-now {
+    color: #3B2DFF;
+    transition: 1s;
+}
+
+#remember-me-label {
+    font-size: 15px;
+}
+
+#register-now:hover {
+    color: #231b8e;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: red;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.inputError {
+    border: 2px solid red;
+}
+
+.labelError {
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

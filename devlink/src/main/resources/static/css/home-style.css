@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 42px;
+    color: #FFFFFF;
+    background-color: #2eab43;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    transition: 1s;
+    font-size: 17px;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #2E7D32;
+    transition: 1s;
+    transform: scale(1.01);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
