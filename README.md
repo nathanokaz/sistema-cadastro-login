@@ -41,9 +41,6 @@ Este é um projeto de autenticação de usuários, desenvolvido com o objetivo d
 - **Frontend: HTML, CSS e JavaScript (integrado com Thymeleaf)**
 
 ## Demonstração
-**Tela de Registro:**
 ![Tela de registro](devlink/imagens/cadastro.png)
-
-**Tela de Login:**
 ![Tela de login](devlink/imagens/login.png)
 
